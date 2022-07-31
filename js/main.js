@@ -13,7 +13,7 @@
         nav: true,
         dots: false,
         center: true,
-        margin: 0,
+        margin: 30,
         smartSpeed: 3000,
         navText: ["<img src='images/leftbtn.svg'>", "<img src='images/rightbtn.svg'>"],
         responsive: {
@@ -23,9 +23,10 @@
                 center: false,
             },
             600: {
-                items: 1,
+                items: 2,
                 nav: false,
                 center: false,
+                margin:10,
             },
             1000: {
                 items: 3
@@ -50,9 +51,10 @@
                 center: false,
             },
             600: {
-                items: 1,
+                items: 2,
                 nav: false,
                 center: false,
+                  margin:10,
             },
             1000: {
                 items: 3
