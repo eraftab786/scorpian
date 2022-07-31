@@ -1,293 +1,264 @@
-@media(max-width:1050px) {
-
-        .topheader ul li {
-    font-size: 12px;
-}
-
-.topheader ul li a {
-    font-size: 12px;
-    padding: 8px 11px;
-
-}
-
+@media(max-width:1292px) {
 .stellarnav>ul>li {
     padding: 0px 5px;
 }
 
+a.header-btn {
+    padding: 10px 5px;
+    font-size:12px;
+}
+}
+
+@media(max-width:1050px) {
+
+
+
+.stellarnav>ul>li {
+    padding: 0px 3px;
+}
+
 .stellarnav>ul>li>a {
+
     font-size: 12px;
-  
+ 
 }
-
-.banner .content  h1 {
-    font-size: 35px;
-   
 }
+@media(max-width:1000px) {
+a.d-morebtn {
 
-.banner .content  ul li a {
-    font-size: 14px;
+    top: 30px;
 }
-
-.cdcicard .info {
-    min-height: 292px;
-}
-
 }
 @media(max-width:991px) {
 
-.cdciiinner {
-    padding: 0px 0px;
+.about .right-conent h3 {
+
+    font-size: 2rem;
+   
 }
 
-.banner-bottom .col-lg-3:nth-of-type(2) .horizontalcard {
-    background: #71bccc;
+.about .right-conent  h6 {
+    font-size: 1.2rem;
+    
 }
 
-.cdcicard .info {
-    min-height: 235px;
+.about .right-conent h3 span {
+    font-size: 2.5rem;
 }
 
-.listsec .righttsec h3 {
-    font-size: 16px;
-  
+.about .right-conent span::before {
+   display:none;
 }
 
-.aboutusleft h3 {
+.newssel form input[type="text"] {
+
+    width: 300px;
+   
+}
+
+}
+@media(max-width:767px) {
+.h-btn {
+    text-align: right;
+}
+
+.about .right-conent {
+    margin-bottom: 50px;
+}
+
+h2.secheading span {
+    font-size: 53px;
+
+}
+
+.nav-tabs {
+
+    width: 57%;
+}
+
+section{
+	padding:5% 0px !important;
+}
+.ourmusic-sec {
+    padding: 30px 0px 0px 0px!important;
+}
+}
+
+
+@media(max-width:667px) {
+
+	.stellarnav .menu-toggle span.bars span {
+    display: block;
+    width: 23px;
+    height: 3px;
+    border-radius: 6px;
+    background: #ffff;
+    margin: 0 0 3px;
+}
+.banner .content h1 {
+    font-size: 35px;
+}
+
+h2.secheading {
+    font-size: 32px;
+    margin-top:20px;
+    word-spacing:5px;
+
+}
+
+.banner .content h2 {
     font-size: 20px;
 
 }
 
-.workinner {
-    padding: 0 0px;
-    margin-bottom:50px;
+h2.secheading span {
+    font-size: unset;
+    display:inline-block;
+    margin-left:5px;
 }
 
-footer ul li a {
-    font-size: 12px;
-    margin-bottom: 10px;
+.our-musicheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-ul.social  a {
-    height: 30px;
-    width: 30px;
+.our-portfolio 
+ h2.secheading {
+   
+    width: 100%;
+ 
+}
+
+.nav-tabs {
+    width: 100%;
+}
+
+.portfolio-card .card-foot h3 {
+    font-size: 1rem;
+ 
+}
+
+.portfolio-card .card-foot p {
+    font-size: 14px;
+    margin-top:5px;
+}
+
+.textimonial-header .content h2 {
+    font-size: 25px;
   
 }
 
-.logocol img {
+.textimonial-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.textimonial-header .content {
+    padding: 0px 30px 10px 30px;
+    text-align: center;
+}
+
+.newssel {
+  
+    flex-direction: column;
+}
+
+.newssel span {
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    padding-right: 0px;
+    text-transform: capitalize;
+}
+
+p.copyright {
+   
+    text-align: center;
+}
+
+.flogo {
+    margin-top: 50px;
+}
+
+.newssel form input[type="text"] {
+    width: 224px;
+}
+.newssel form input {
+    padding: 10px 5px;
+}
+
+.textimonial-header .content p {
+    font-size: 14px;
+}
+
+.testimonials .item {
+    padding: 35px 0px;
+}
+
+ul.menu  li a {
+
+    font-size: 14px;
+  
+}
+
+header {
+    text-align: center;
+    padding:10px;
+}
+
+section.banner {
+   
+    height: 400px;
+    
+}
+
+.banner .content {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    padding: 0px 10px;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.textimonial-header img {
     width: 100px;
 }
 
-.footer2 ul {
-    justify-content: center;
-    padding: 10px 0px;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer2 img {
-    width: 150px;
-    margin-bottom: 10px;
-}
-
-.stellarnav>ul>li {
-    padding: 0px 4px;
-}
-
-
-}
-@media(max-width:767px) {
-
-    .banner .content {
-    left: 0;
-    width: 100%;
-    text-align: center;
-    padding: 0px 10px;
-    background-color: #0009;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.topheader ul {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.topheader ul li a {
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.logo {
-    margin: 10px 0px;
-    text-align: center;
-}
-
-.logo img {
-    width: 150px;
-}
-
-.contact img {
-    width: 111px;
-}
-
-.contact{
-    text-align:right;
-}
-
-.stellarnav .menu-toggle span.bars span {
-    width: 20px;
-    background: #fff;
+.textimonial-card .title h5 {
    
+    font-size: 1rem;
+ 
 }
 
-.banner .content  h1 {
-    font-size: 22px;
+img.quotee {
+    width: 30px !important;
+    margin: 20px 0px 10px 0px;
 }
 
-.banner .content  p {
+.textimonial-card p {
+  
     font-size: 14px;
-    margin: 11px 0px;
-  
 }
 
-.banner .content  ul li a {
-    font-size: 10px;
-
-        padding: 7px 11px;
-
+.textimonial-card .img {
+    height: 98px;
+    width: 98px;
+    position: absolute;
+    top: -23px;
+    left: 0px;
 }
-
-.banner .content {
-    left: 0;
-    width: 100%;
-}
-
-.horizontalcard {
-    padding: 0px 15px;
-    min-height: 100px;
-}
-
-.cdciiinner h2, .testimonial h3 {
-    font-size: 25px;
-  
-}
-
-.cdciiinner > p, .testimonial p {
-    font-size: 14px;
-  
-}
-
-.cdciiinner h2, .testimonial h3 {
-    font-size: 16px;
-}
-
-.cdcicard  h2 {
-    margin-bottom: 12px;
-}
-.cdcicard  p {
-    font-size: 12px;
-}
-
-.cdcicard .info {
-    min-height: 183px;
-}
-
-.listsec .righttsec {
-    padding: 50px  10px  50px 20px;
-}
-.listsec .righttsec ul li {
-    font-size: 12px;
-  
-}
-
-.aboutusleft {
-    text-align: center;
-    margin-bottom:30px;
-}
-
-.aboutusleft a {
-    margin-top: 15px;
-}
-
-.aboutusleft h3 {
-    margin-bottom: 10px;
-}
-
-.corevalue h2 {
-    font-size: 25px;
-}
-
-footer {
-    padding: 0px 0px 30px 0px;
-  
-}
-
-footer h3{
-    margin-top:30px;
-}
-
-.logocol {
-    margin-top: 30px;
-}
-}
-
-@media(max-width:575px) {
-.topheader ul {
-    text-align: center;
-}
-
-section.whowork h6 {
-
-    margin-bottom: 10px;
-}
-.workinner {
-
-    margin-bottom: 20px;
-}
-
-.banner .content {
-    left: 0;
-    width: 100%;
-    text-align: center;
-    padding: 0px 10px;
-}
-
-.banner ul {
-    justify-content: center;
-}
-
-section.banner , section.banner img {
-    height: 235px;
-    object-fit:cover;
-}
-
-section.testimonial {
-    padding: 0px;
-   
-}
-
-.mt-5, .my-5 {
-    margin-top: 2rem!important;
-}
-
-section.aboutus {
-    margin: 30px 0px;
-}
-
-.cdciiinner > p, .testimonial p {
-    margin: 10px auto 20px auto;
-}
-
-section.testimonial {
-    padding: 0px;
-    padding-top: 20px;
-}
-}
-
-
-@media(max-width:453px) {
-
 }
