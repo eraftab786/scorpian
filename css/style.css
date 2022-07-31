@@ -659,3 +659,22 @@ p.copyright {
 p.copyright span{
     color:#f60404;
 }
+
+.about .right-conent a {
+    padding: 10px 24px;
+    background-color: #fe0000;
+    margin-top: 19px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+}
+
+.stellarnav.mobile.left>ul, .stellarnav.mobile.right>ul {
+   
+    z-index: 9999;
+}
+
+.stellarnav.mobile ul {
+   
+    background: #020202;
+}
